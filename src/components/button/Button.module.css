@@ -1,0 +1,31 @@
+.center{
+    display: flex;
+    justify-content: center;
+    margin:2% auto;
+}
+.button {
+    background:linear-gradient(145deg, #4a2a1b, #381809); /* Classic pink with transparency */
+    border: none;
+    color: #ffffff;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-family: "Assistant";
+    direction: rtl;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  
+  .button:hover {
+    background: linear-gradient(145deg, #4a2a1b, #381809); /* Increase transparency on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:active {
+    background: linear-gradient(145deg, #76462f, #582812); /* Dark pink on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+  }
