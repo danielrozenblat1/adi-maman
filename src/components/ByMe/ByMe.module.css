@@ -2,14 +2,14 @@
   text-decoration: none;
   color:#050505;
   font-size: 1.3rem;
-  padding: 1%;
+  margin: 1%;
 }
 
 .byMe{
  
     text-align:center;
 
-    margin:0 auto;
+    margin:1% auto;
     color: rgb(0, 0, 0);
     font-size: 1rem;
     font-family: "AssistantR";

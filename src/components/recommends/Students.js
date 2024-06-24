@@ -1,24 +1,19 @@
 import styles from "./Recommends.module.css"
-import result1 from "../../images/עדי ממן המלצה 1.png"
-import result2 from "../../images/עדי ממן המלצה 2.png"
-import result3 from "../../images/עדי ממן המלצה 3.png"
-import result4 from "../../images/עדי ממן המלצה 4.png"
-import result5 from "../../images/עדי ממן המלצה 5.png"
-import result6 from "../../images/עדי ממן המלצה 6.png"
-import result7 from "../../images/עדי ממן המלצה 7.png"
-import result8 from "../../images/עדי ממן המלצה 8.png"
-import result9 from "../../images/עדי ממן המלצה 9.png"
-import result10 from "../../images/עדי ממן המלצה 10.png"
-import result11 from  "../../images/עדי ממן המלצה 11.png"
-import result12 from  "../../images/עדי ממן המלצה 12.png"
-import result13 from  "../../images/עדי ממן המלצה 13.png"
-import result14 from  "../../images/עדי ממן המלצה 14.png"
-import result15 from  "../../images/עדי ממן המלצה 15.png"
+import result1 from "../../images/עדי ממן תלמידות 1.png"
+import result2 from "../../images/עדי ממן תלמידות 2.png"
+import result3 from "../../images/עדי ממן תלמידות 3.png"
+import result4 from "../../images/עדי ממן תלמידות 4.png"
+import result5 from "../../images/עדי ממן תלמידות 5.png"
+import result6 from "../../images/עדי ממן תלמידות 6.png"
+import result7 from "../../images/עדי ממן תלמידות 7.png"
+import result8 from "../../images/עדי ממן תלמידות 8.png"
+import result9 from "../../images/עדי ממן תלמידות 9.png"
+
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Button from "../button/Button"
-const Recommends=()=>{
+const Students=()=>{
     const sliderSettings = {
      
         infinite: true,
@@ -39,34 +34,12 @@ const Recommends=()=>{
           type: 'image',
           src: result1,
         },
-        {
-          type: 'image',
-          src: result11,
-        },
-        {
-          type: 'image',
-          src: result12,
-        },
-        {
-          type: 'image',
-          src: result13,
-        },
-        {
-          type: 'image',
-          src: result14,
-        },
-        {
-          type: 'image',
-          src: result15,
-        },
+
         {
           type: 'image',
           src: result8,
         },
-        {
-          type: 'image',
-          src: result10,
-        },
+   
         {
           type: 'image',
           src: result9,
@@ -98,13 +71,14 @@ const Recommends=()=>{
           },
         ];  
 return <>
-<div className={styles.title} id="לקוחות ממליצות">אבל לפני הכל - תשמעי קצת מהן..</div>
+<div className={styles.title} id="תלמידות">גם את יכולה להפוך לאחת מהן</div>
+<div className={styles.explain}>החליקי בין התמונות והתרשמי..</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (
             <div key={index} itemscope itemtype="http://schema.org/Review">
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`עדי ממן לקוחה ממליצה מספר ${index + 1}`} itemprop="image"/>
+                <img src={item.src} className={styles.image1} alt={`עדי ממן תלמידה עם תעודה מספר ${index + 1}`} itemprop="image"/>
               )}
               {item.type === 'video' && (
                 <video
@@ -126,9 +100,9 @@ return <>
         </Slider>
       </div>
 
-<Button text="עדי אני רוצה לשמוע עוד"/>
+<Button text="עדי,בואי נדבר"/>
 </>
 
 
 }
-export default Recommends
+export default Students

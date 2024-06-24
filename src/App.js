@@ -7,6 +7,8 @@ import Recommends from './components/recommends/Recommends';
 import ForthScreen from './screens/ForthScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import ByMe from './components/ByMe/ByMe';
+import Students from './components/recommends/Students';
+import FormScreen from './components/form/FormScreen';
 
 function App() {
   return <>
@@ -14,7 +16,9 @@ function App() {
 <Recommends/>
 <SecondScreen/>
 <ForthScreen/>
+<Students/>
 <ThirdScreen/>
+<FormScreen/>
 <ByMe/>
   </>
 }

@@ -49,8 +49,8 @@ direction:rtl
 .image{
     object-fit: contain;
     width:100%;
-    border-radius:50%;
-    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.345);
+    border-radius:200px 200px 500px 500px;
+    box-shadow: 0 0 5px 1px rgba(57, 57, 57, 0.345);
 }
 @media only screen and (max-width: 350px){
     .name{
@@ -105,7 +105,7 @@ direction:rtl
     .image{
         object-fit: contain;
         width:100%;
-        border-radius:50%;
+        border-radius:200px 200px 500px 500px;
         box-shadow: 0 0 5px 1px rgba(8, 8, 8, 0.345);
     }
 }
@@ -162,7 +162,7 @@ direction:rtl
     .image{
         object-fit: contain;
         width:100%;
-        border-radius:50%;
+        border-radius:200px 200px 500px 500px;
         box-shadow: 0 0 5px 1px rgba(8, 8, 8, 0.345);
     }
 }
@@ -219,7 +219,7 @@ direction:rtl
     .image{
         object-fit: contain;
         width:100%;
-        border-radius:50%;
+        border-radius:200px 200px 500px 500px;
         box-shadow: 0 0 5px 1px rgba(8, 8, 8, 0.345);
     }
 }
@@ -276,7 +276,7 @@ direction:rtl
     .image{
         object-fit: contain;
         width:100%;
-        border-radius:50%;
+        border-radius:200px 200px 500px 500px;
         box-shadow: 0 0 5px 1px rgba(8, 8, 8, 0.345);
     }
 }
@@ -333,7 +333,7 @@ direction:rtl
     .image{
         object-fit: contain;
         width:100%;
-        border-radius:50%;
+        border-radius:200px 200px 500px 500px;
         box-shadow: 0 0 5px 1px rgba(8, 8, 8, 0.345);
     }
 }
@@ -390,7 +390,7 @@ direction:rtl
     .image{
         object-fit: contain;
         width:100%;
-        border-radius:50%;
+        border-radius:200px 200px 500px 500px;
         box-shadow: 0 0 5px 1px rgba(8, 8, 8, 0.345);
     }
 }
