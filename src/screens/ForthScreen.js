@@ -7,7 +7,7 @@ import secondStep from "../icons/wired-gradient-1594-manicure.json"
 import forthStep from "../icons/wired-gradient-1592-nail-polish.json"
 import Button from "../components/button/Button"
 import FormScreen from "../components/form/FormScreen"
-import certificate from "../images/עדי ממן תעודה.png"
+import certificate from "../images/עדי ממן תעודה לדוגמא.png"
 const ForthScreen=()=>{
 
     return <>
@@ -21,14 +21,14 @@ const ForthScreen=()=>{
     <div className={styles.more}>קחי אוויר ושבי..</div>
     <div className={styles.description}>התכנית מתחלקת ל-4 שלבים שבסופן תוכלי לצאת לדרך עצמאית בתחום הציפורניים ולעסוק במקצוע שאת הכי אוהבת</div>
     <div className={styles.row}>
-    <Bubble number="1" icon={firstStep} description="מפגש עיוני"/>
-    <Bubble number="2" icon={secondStep} description="עבודה מעשית"/>
+    <Bubble number="1" icon={firstStep} description="מפגש עיוני הכולל את כל התוכן שאת צריכה לדעת בתחום הציפורניים"/>
+    <Bubble number="2" icon={secondStep} description="עבודה מעשית הכוללת מבנה אנטומי בשיעור המעשי הראשון"/>
 
     </div>
     <div className={styles.row}>
 
-    <Bubble number="3"icon={thirdStep} description="עבודה מעשית - מבנה אנטומי"/>
-    <Bubble number="4" icon={forthStep} description="עבודה מעשית השלמת ציפורן"/>
+    <Bubble number="3"icon={thirdStep} description="עבודה מעשית - עבודה ותרגול"/>
+    <Bubble number="4" icon={forthStep} description="שיעור סיום עבודה מעשית הכוללת למידת טכניקה של השלמת ציפורן"/>
     </div>
     <div className={styles.more}>כבר ציינתי ש..?</div>
     <ul className={styles.ul}>
@@ -39,7 +39,8 @@ const ForthScreen=()=>{
     <li className={styles.li}>תלמדי איך לצלם נכון ליצירת תמונות קטלוג</li>
     <li className={styles.li}>את תצאי מהקורס הזה עם תעודת ההסמכה שתופיע כאן למטה!</li>
     </ul>
-    <div className={styles.center}><img className={styles.image} src={certificate}/></div>
+    <div className={styles.description}>*כל הזכויות שמורות לעדי ממן*</div>
+    <div className={styles.center}><img className={styles.image} src={certificate} alt="עדי ממן  אקדמית בוטיק ללימודי ציפורניים"/></div>
     <FormScreen/>
     </>
 }

@@ -11,17 +11,13 @@ const CountingUp = () => {
   return (
     <div ref={ref} className={styles.row}>
  
-      <div className={styles.font} >
-        {inView && <CountUp end={1000} duration={5.5} />}
-        <div className={styles.explain}>לקוחות עברו תחתי</div>
-      </div>
-      
+
       <div className={styles.font}>
-        {inView && <CountUp end={120} duration={6.5} />}
+        {inView && <CountUp end={300} duration={6.5} />}
         <div className={styles.explain}>תלמידות שעברו את הליווי שלי</div>
       </div>
       <div className={styles.font}>
-        {inView && <CountUp end={50} duration={5} />}
+        {inView && <CountUp end={100} duration={5} />}
         <div className={styles.explain}>נייליסטיות שעברו השתלמות אצלי</div>
       </div>
     </div>
